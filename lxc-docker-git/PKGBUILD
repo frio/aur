@@ -34,7 +34,7 @@ package() {
   install -D -m 644 "$srcdir/docker.service" "$pkgdir/usr/lib/systemd/system/docker.service"
 
   # install docker binary
-  install -D -m 755 "$srcdir/docker/bin/docker" "$pkgdir/usr/sbin/docker"
+  install -D -m 755 "$srcdir/docker/bin/docker" "$pkgdir/usr/bin/docker"
 }
 
 pkgver() {
