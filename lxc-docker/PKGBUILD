@@ -15,7 +15,6 @@ arch=('x86_64')
 url="https://github.com/dotcloud/docker"
 license=('Apache License 2.0')
 depends=('bridge-utils' 'iproute2' 'aufs3' 'go' 'lxc')
-makedepends=('git' 'go')
 provides=('lxc-docker')
 source=(
     "https://get.docker.io/builds/Linux/x86_64/docker-$pkgver" 
